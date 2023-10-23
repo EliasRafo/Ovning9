@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(90deg, #b621fe 35%, #00d4ff 100%);
+  padding: 10px;
+  margin: auto;
+}
+
+.navbar-brand {
+  font-family: 'Brush Script MT', cursive;
+  font-size:xx-large;
+  color: cornflowerblue;
+}
+
+.nav-link {
+  font-family: 'Times New Roman', serif;
+  font-size: large;
+  color: blueviolet;
+}
+
+.nav-link:hover { 
+  color: cornflowerblue;
+}
+
+.act { 
+  color: rgb(40, 3, 75);
+}
+
+.bish-bosh {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.bish-bosh h6 {
+  color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  outline: none;
+  font-weight: 16px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: blueviolet;
+  color: white;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+.copyright {
+  color: black;
+}
+
